@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;1,8..144,400;1,8..144,500&display=swap"
+        rel="stylesheet">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <section id="header">
+    </section>
+    <section id="main">
+        <h1>Temperature Converter</h1>
+        <div id="function">
+            <div id="input-zone">
+                <input id="input-temp" type="number"/>
+                <select name="input-unit" id="input-unit">
+                    <option value="celcius">Celcius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+            </div>
+            <div id="btn-section">
+                <div id="button">
+                    Convert
+                </div>
+                <div id="reset">
+                    Reset
+                </div>
+
+            </div>
+            <div id="output">
+                <p style="background-color: #efefef;"></p>
+                <select name="output-unit" id="output-unit">
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="celcius">Celcius</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
